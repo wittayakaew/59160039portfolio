@@ -12,14 +12,16 @@ body {
 	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
 	width: 1200px;
 }
-
+.left{
+	float: right;
+}
 header	{
 	float: left;
 	background-color: #4aaaa5;
 	border-bottom: none;
 	color: #ffffff;
 	height: 100%;
-	width: 270px;
+	width: 400px;
 	margin-left: 125px;
 	margin-bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -51,7 +53,12 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-
+.resize{
+	width: 60px;
+	height: auto;
+	color: none;
+	border-right: none;
+}
 li {
 	float: left;
 	width: 33%;
@@ -90,7 +97,8 @@ a:hover {
 }
 
 section	{
-	background-color: #ffffff;
+	
+	background-color: #fff8dc;
 	float: left;
 	color: #777777;
 	border: 2px solid #dddddd;
